@@ -1,0 +1,280 @@
+/* Font */
+
+@import url("https://fonts.googleapis.com/css?family=Oswald|Raleway:300,400,700&subset=latin-ext");
+/* in Css 
+font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+/* Defoult */
+
+body {
+  background-color: #ebecf2;
+  color: #878a9a;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Styles */
+
+/* Header */
+
+.header-top {
+  font-size: 11px;
+  padding: 2px 0;
+}
+
+.header-top span {
+  color: #ffffff;
+}
+
+.header-top a {
+  color: #878a9a;
+  text-decoration: none;
+}
+
+.header-top a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* MENU */
+
+.main_h {
+  position: fixed;
+  top: 50px;
+  max-height: 100px;
+  width: 100%;
+  background: none;
+  /* overflow: hidden; */
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 16;
+}
+
+.sticky {
+  background-color: #2c2c2c91;
+  color: #fff;
+  width: 100%;
+  top: 0px;
+}
+
+.snip1189 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  float: right;
+  text-align: right;
+}
+
+.snip1189 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1189 li {
+  display: inline-block;
+  list-style: outside none none;
+  padding: 0;
+}
+
+.snip1189 a {
+  padding: 0.5em 0.8em;
+  margin: 0.2em 0;
+  display: block;
+  color: #fff !important;
+  position: relative;
+  text-decoration: none;
+}
+
+.snip1189 a:before,
+.snip1189 a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.snip1189 a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #d06b96;
+  border-top: 3px solid #d06b96;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+
+.snip1189 a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #d06b96;
+  border-bottom: 3px solid #d06b96;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.snip1189 a:hover,
+.snip1189 .current a {
+  color: #ffffff;
+}
+
+.snip1189 a:hover:before,
+.snip1189 .current a:before,
+.snip1189 a:hover:after,
+.snip1189 .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+/* Slider */
+
+.slider img {
+  height: 100vh;
+  width: 500px;
+}
+
+/* Content-1 */
+
+.content-1 .title h1 {
+  color: #d06b96;
+  letter-spacing: 3px;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.content-1 .info {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Content-2 */
+
+.content-2 {
+  margin-top: 50px;
+}
+
+.content-2 h4 {
+  color: #2c2c2c;
+}
+
+.content-2 .icons {
+  margin-top: 60px;
+}
+
+.content-2 .ic-text {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+
+.content-2 .icon {
+  padding: 10px;
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0 auto;
+  width: 63px;
+  height: 63px;
+}
+
+.content-2 .icon:hover {
+  color: #2c2c2c;
+}
+
+.content-2 .icon1 {
+  background-color: #6592d7;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-2 .icon1:hover {
+  background-color: rgb(131, 175, 241);
+}
+
+.content-2 .icon2 {
+  background-color: #d06b96;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-2 .icon2:hover {
+  background-color: rgb(247, 132, 182);
+}
+
+.content-2 .icon3 {
+  background-color: #e4926e;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-2 .icon3:hover {
+  background-color: rgb(247, 148, 105);
+}
+
+.content-2 .icon4 {
+  background-color: #e3b26d;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-2 .icon4:hover {
+  background-color: rgb(250, 198, 126);
+}
+
+.content-2 .icon5 {
+  background-color: #73c6cd;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-2 .icon5:hover {
+  background-color: rgb(129, 232, 241);
+}
+
+.content-2 .icon6 {
+  background-color: #62aed6;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-2 .icon6:hover {
+  background-color: rgb(110, 203, 253);
+}
+
+/* Content-3 */
+
+.content-3 {
+  background-color: #73c6cd;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.content-3 h2 {
+  font-weight: 200;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.content-3 .button-type1 {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 170px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.content-3 .button-type1:hover {
+  color: #73c6cd;
+  background-color: #fff;
+}
+
+/* Content-4 */
+.content-4{
+  
+}

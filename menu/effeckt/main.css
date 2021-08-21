@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway:300,400,700&subset=latin-ext');
+.main_h {
+  position: fixed;
+  top: 50px;
+  max-height: 100px;
+  width: 100%;
+  background: none;
+  /* overflow: hidden; */
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 16;
+}
+
+.snip1189 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.snip1189 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1189 li {
+  display: inline-block;
+  list-style: outside none none;
+  padding: 0;
+}
+
+.snip1189 a {
+  padding: 0.5em 0.8em;
+  margin: 0.2em 0;
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+}
+
+.snip1189 a:before,
+.snip1189 a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.snip1189 a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #D06B96;
+  border-top: 3px solid #D06B96;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+
+.snip1189 a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #D06B96;
+  border-bottom: 3px solid #D06B96;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.snip1189 a:hover,
+.snip1189 .current a {
+  color: #ffffff;
+}
+
+.snip1189 a:hover:before,
+.snip1189 .current a:before,
+.snip1189 a:hover:after,
+.snip1189 .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+/* Demo purposes only */
+
+body {
+  background-color: #b10606;
+  padding: 50px 0;
+}
