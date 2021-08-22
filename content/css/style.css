@@ -55,7 +55,7 @@ body {
   z-index: 16;
 }
 
-.main_h > .container-fluid{
+.main_h > .container-fluid {
   position: fixed;
   top: 50px;
   -webkit-transition: all 0.3s;
@@ -67,8 +67,6 @@ body {
   color: #fff;
   width: 100%;
   top: 0px !important;
-  
-
 }
 
 .snip1189 {
@@ -145,6 +143,41 @@ body {
   opacity: 1;
 }
 
+.slider-text-sections {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  width: 25%;
+  text-align: center;
+}
+
+.slider-title-section {
+  font-size: 55px;
+  color: #d06b96;
+}
+
+.slider-subtitle-section {
+  font-size: 29px;
+  color: #5d84b6;
+}
+
+@media screen and (max-width: 992px) {
+  .slider-text-sections {
+    top: 35%;
+    left: 45%;
+    width: 50%;
+  }
+
+  .slider-title-section {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .slider-subtitle-section {
+    font-size: 19px;
+  }
+}
+
 .banner {
   height: 240px;
   background: url("../img/header/banner.jpeg");
@@ -191,7 +224,7 @@ body {
 }
 
 #hakkimizda .content-3 {
-  background: #E2E3E5 !important;
+  background: #e2e3e5 !important;
 }
 
 #hakkimizda .team-member {
@@ -208,7 +241,7 @@ body {
 }
 
 #hakkimizda .content-4 {
-  background: #D79E58;
+  background: #d79e58;
 }
 
 #hakkimizda .testimonial .testimonial-content {
@@ -216,7 +249,7 @@ body {
   margin-bottom: 30px;
   border: 1px solid #f0f0f0;
   position: relative;
-  display: flex
+  display: flex;
 }
 
 #hakkimizda .testimonial .testimonial-content:after {
@@ -238,7 +271,7 @@ body {
   font-size: 22px;
   color: #fff;
   line-height: 42px;
-  margin-right: 10px
+  margin-right: 10px;
 }
 
 #hakkimizda .testimonial .description {
@@ -299,7 +332,6 @@ body {
   padding-top: 20px;
   text-align: center;
 }
-
 
 /* Content-1 */
 
@@ -480,7 +512,6 @@ body {
   background-position-y: -340px;
 }
 
-
 .content-5 .bgcolor {
   background-color: rgba(247, 132, 182, 0.719);
   background-repeat: no-repeat;
@@ -519,14 +550,14 @@ body {
   font-size: 2rem;
   font-weight: 500;
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .content-5 {
     background-position-y: 0px;
   }
   .content-6 {
     background-position-x: -250px;
   }
-  .content-6 .container .items h3{
+  .content-6 .container .items h3 {
     letter-spacing: 0;
     font-size: 1.5rem;
   }
@@ -601,14 +632,12 @@ body {
 .team-content .team-title {
   padding-top: 3rem;
   padding-bottom: 3rem;
-
 }
 
 .team-content .team-title h2 {
   margin-bottom: 1rem;
   color: rgba(247, 132, 182, 0.719);
   font-weight: lighter;
-
 }
 
 .team-content .team-title p {
@@ -625,8 +654,6 @@ body {
   border: 5px #fff solid;
 }
 
-
-
 .team-content .team-card-1 .container {
   position: relative;
   border-radius: 100%;
@@ -637,7 +664,6 @@ body {
   width: 100%;
   height: auto;
   border-radius: 100%;
-
 }
 
 .team-content .team-card-1 .overlay {
@@ -650,7 +676,7 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: rgba(247, 132, 182, 0.719);
 }
 
@@ -673,7 +699,7 @@ body {
 
 .team-content .team-card-1 .text a {
   color: white;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .team-content .team-card-1 .text a:hover {
@@ -687,14 +713,13 @@ body {
 
 .team-content .team-card-1 .card-body .second-title {
   font-size: 14pt;
-  color: rgb(247, 132, 182)
+  color: rgb(247, 132, 182);
 }
 
 .team-content .team-card-2 .card {
   border: 5px #fff solid;
   padding: 3em;
   text-align: center;
-
 }
 
 .team-content .team-card-2 .container {
@@ -708,7 +733,6 @@ body {
   width: 100%;
   height: auto;
   border-radius: 100%;
-
 }
 
 .team-content .team-card-2 .overlay {
@@ -721,7 +745,7 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: rgba(247, 132, 182, 0.719);
 }
 
@@ -744,7 +768,7 @@ body {
 
 .team-content .team-card-2 .text a {
   color: white;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .team-content .team-card-2 .text a:hover {
@@ -758,7 +782,7 @@ body {
 
 .team-content .team-card-2 .card-text2 {
   font-size: 14pt;
-  color: rgb(247, 132, 182)
+  color: rgb(247, 132, 182);
 }
 
 .team-content .team-card-2 .btn {
@@ -769,25 +793,21 @@ body {
   border: 3px solid #fff;
   padding: 1em;
   font-weight: bold;
-  transition: .5s ease;
-
+  transition: 0.5s ease;
 }
 
 .team-content .team-card-2 .btn:hover {
   color: white;
-  background-color: rgb(247, 132, 182)
+  background-color: rgb(247, 132, 182);
 }
 
 .team-content .team-card-2 .card-deck {
   margin-bottom: 2rem;
-
-
 }
 
 .team-content .team-card-2 .p-titles {
-  padding-top: 0.rem;
+  padding-top: 0rem;
   border-right: solid 3px #fff;
-
 }
 
 /* contact form */
@@ -876,7 +896,7 @@ body {
 
 .btn.btn-primary {
   background: rgb(247, 132, 182) !important;
-  border-color: rgb(247, 132, 182)2553b8 !important;
+  border-color: rgb(247, 132, 182) 2553b8 !important;
   color: #fff;
 }
 
