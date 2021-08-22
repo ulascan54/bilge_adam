@@ -137,6 +137,67 @@ body {
   opacity: 1;
 }
 
+.banner {
+  height: 240px;
+  background: url('/content/img/header/banner.jpeg');
+}
+
+.banner h2 {
+  font-size: 42px;
+}
+
+#hakkimizda .content-1 h3 {
+  font-size: 42px;
+}
+
+.banner .breadcrumb {
+  background: transparent;
+}
+
+/* List with bullets */
+#hakkimizda .list-bullets {
+  list-style: none;
+}
+
+#hakkimizda .list-bullets li {
+  display: flex;
+  align-items: center;
+}
+
+#hakkimizda .list-bullets li::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #5d5e66;
+  border: 2px solid #878a9a;
+  display: block;
+  margin-right: 1rem;
+}
+
+#hakkimizda .content-2 {
+  background: #63BFBE;
+  color: #fff;
+}
+
+.btn-rounded-pink {
+  background: #d06b96;
+  color: #fff;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rounded-border-icons i{
+  width:60px;
+  height: 60px;
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding-top: 20px;
+  text-align: center
+}
+
 /* Slider */
 
 .slider img {
@@ -274,7 +335,7 @@ body {
   background-color: #fff;
 }
 
-/* Content-4 */
+* Content-4 */
 .content-4 {
   margin-top: 4rem;
 }
@@ -435,7 +496,179 @@ body {
 /* footer  end*/
 
 /* team-content */
+.team-content .team-title{
+  padding-top:3rem;
+  padding-bottom:3rem;
+
+}
 .team-content .team-title h2{
+  margin-bottom:1rem;
   color: rgba(247, 132, 182, 0.719);
   font-weight: lighter;
+
 }
+.team-content .team-title p{
+  font-weight: 500;
+  font-size: 1rem;
+}
+.team-content .team-card-1 .team-img-1{
+border-radius: 100%;
+}
+.team-content .team-card-1 .card{
+  padding: 2rem;
+  border:5px #fff solid;
+}
+
+
+
+.team-content .team-card-1 .container {
+  position: relative;
+  border-radius: 100%;
+}
+
+.team-content .team-card-1 .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+
+}
+
+.team-content .team-card-1 .overlay {
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(247, 132, 182, 0.719);
+}
+
+.team-content .team-card-1 .container:hover .overlay {
+  opacity: 1;
+}
+
+.team-content .team-card-1 .text {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.team-content .team-card-1 .text  a{
+  color: white;
+  transition: .5s ease;
+}
+.team-content .team-card-1 .text  a:hover{
+  color: black;
+}
+.team-content  .team-card-1 .card-title{
+  font-size: 20pt;
+  font-weight: bold;
+}
+.team-content  .team-card-1 .card-body .second-title{
+  font-size: 14pt;
+  color:rgb(247, 132, 182)
+}
+.team-content  .team-card-2 .card{
+border: 5px #fff solid;
+padding: 3em;
+text-align: center;
+
+}
+
+.team-content .team-card-2 .container {
+  position: relative;
+  width: 80%;
+  border-radius: 100%;
+}
+
+.team-content .team-card-2 .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+
+}
+
+.team-content .team-card-2 .overlay {
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(247, 132, 182, 0.719);
+}
+
+.team-content .team-card-2 .container:hover .overlay {
+  opacity: 1;
+}
+
+.team-content .team-card-2 .text {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.team-content .team-card-2 .text  a{
+  color: white;
+  transition: .5s ease;
+}
+.team-content .team-card-2 .text  a:hover{
+  color: black;
+}
+.team-content .team-card-2 .card-title{
+  font-size: 20pt;
+  font-weight: bold;
+}
+.team-content .team-card-2 .card-text2{
+    font-size: 14pt;
+  color:rgb(247, 132, 182)
+}
+.team-content .team-card-2 .btn{
+  color: #2c2c2c8a;
+  background-color: none;
+  font-size: 12pt;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  padding: 1em;
+  font-weight: bold ;
+  transition: .5s ease;
+
+}
+.team-content .team-card-2 .btn:hover{
+  color: white;
+  background-color: rgb(247, 132, 182)
+
+  
+}
+.team-content .team-card-2 .card-deck{
+margin-bottom: 2rem;
+
+  
+}
+.team-content .team-card-2 .p-titles{
+  padding-top: 0.5rem;
+  border-right: solid 3px #fff;
+    
+  }
