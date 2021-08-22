@@ -275,6 +275,161 @@ body {
 }
 
 /* Content-4 */
-.content-4{
-  
+.content-4 {
+  margin-top: 4rem;
 }
+
+.content-4 .card .card-body {
+  background-color: none;
+}
+
+.content-4 .card-title {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.content-4 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 78%;
+  width: 98%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(247, 132, 182);
+  cursor: pointer;
+}
+
+.content-4 .card:hover .overlay {
+  opacity: 1;
+}
+
+.content-4 .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* content 5 */
+
+.content-5 {
+  background: url(../img/content/7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -340px;
+}
+
+.content-5 .bgcolor {
+  background-color: rgba(247, 132, 182, 0.719);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -340px;
+}
+
+.content-5 .item {
+  color: #fff;
+  font-size: 18pt;
+  font-weight: bold;
+  padding-top: 3rem;
+}
+
+.content-5 .img-container {
+  padding-bottom: 3rem;
+
+}
+
+.content-5 .carousel-item {
+  height: 350px;
+}
+
+/* content 6 */
+.content-6 {
+  background: url(../img/content/8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+.content-6 .container .items h3 {
+  letter-spacing: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.content-6 .container .items:nth-child(1) {
+  margin-bottom: 1rem;
+  color: rgba(247, 132, 182, 0.719);
+}
+
+.content-6 .container .items:nth-child(2) {
+  color: #73c6cd;
+}
+
+/* footer */
+/* footer content-1 */
+.f-content-1 {
+  background-color: #e3b26d;
+  padding-top: 3rem;
+}
+
+.f-content-1 .container .items {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.f-content-1.container .items p {
+  padding: 0;
+  margin: 0;
+}
+
+.f-content-1 .container .items .icon {
+  font-size: 3rem;
+}
+.f-content-1 .container .items .title {
+  font-size: 2.8rem;
+}
+
+.f-content-1 .container .items .text-content {
+  font-size: 0.7rem;
+}
+/* footer content-2 */
+.f-content-2{
+  background-color: #2C282C;
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.f-content-2 .items {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  max-width: 350px;
+}
+.f-content-2 .items a{
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+
+}
+.f-content-2 .items a:hover{
+  color:#e3b26d;
+
+}
+
+/* footer  end*/
