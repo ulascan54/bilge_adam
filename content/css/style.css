@@ -139,19 +139,21 @@ body {
 
 .banner {
   height: 240px;
-  background: url('/content/img/header/banner.jpeg');
+  background: url("../img/header/banner.jpeg");
 }
 
 .banner h2 {
   font-size: 42px;
 }
 
-#hakkimizda .content-1 h3 {
-  font-size: 42px;
-}
-
 .banner .breadcrumb {
   background: transparent;
+}
+
+/* Hakkınızda */
+
+#hakkimizda .content-1 h3 {
+  font-size: 42px;
 }
 
 /* List with bullets */
@@ -165,7 +167,7 @@ body {
 }
 
 #hakkimizda .list-bullets li::before {
-  content: '';
+  content: "";
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -176,9 +178,94 @@ body {
 }
 
 #hakkimizda .content-2 {
-  background: #63BFBE;
+  background: #63bfbe;
   color: #fff;
 }
+
+#hakkimizda .content-3{
+  background: #E2E3E5 !important;
+}
+
+#hakkimizda .team-member{
+  border: 2px solid #fff;
+}
+
+#hakkimizda .team-member .team-member-position{
+  color: #d06b96;
+  font-size: 17px;
+}
+
+#hakkimizda .team-member-img{
+  border-radius: 50%;
+}
+
+#hakkimizda .content-4{
+  background: #D79E58;
+}
+#hakkimizda 
+.testimonial .testimonial-content{
+  padding: 35px 25px 35px 50px;
+  margin-bottom: 30px;
+  border: 1px solid #f0f0f0;
+  position: relative;
+  display: flex
+}
+#hakkimizda .testimonial .testimonial-content:after{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  bottom: -10px;
+  left: 22px;
+  transform: rotate(45deg);
+}
+#hakkimizda .testimonial-content .testimonial-icon{
+  width: 50px;
+  height: 45px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  line-height: 42px;
+  margin-right: 10px
+}
+
+#hakkimizda .testimonial .description{
+  font-size: 15px;
+  font-style: italic;
+  color: #fff;
+  line-height: 23px;
+  margin: 0;
+}
+#hakkimizda .testimonial .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+}
+#hakkimizda .testimonial .post{
+  display: block;
+  font-size: 12px;
+  color: #fff;
+}
+#hakkimizda .owl-theme .owl-controls{
+  margin-top: 20px;
+}
+#hakkimizda .owl-theme .owl-controls .owl-page span{
+  background: #ccc;
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+}
+#hakkimizda .owl-theme .owl-controls .owl-page.active span,
+#hakkimizda .owl-theme .owl-controls.clickable .owl-page:hover span{
+  background: #ff4242;
+}
+
+/* Hakkınızda end */
 
 .btn-rounded-pink {
   background: #d06b96;
@@ -188,14 +275,14 @@ body {
   padding-right: 20px;
 }
 
-.rounded-border-icons i{
-  width:60px;
+.rounded-border-icons i {
+  width: 60px;
   height: 60px;
   font-size: 20px;
   border: 1px solid #fff;
   border-radius: 100%;
   padding-top: 20px;
-  text-align: center
+  text-align: center;
 }
 
 /* Slider */
@@ -335,8 +422,7 @@ body {
   background-color: #fff;
 }
 
-* Content-4 */
-.content-4 {
+* Content-4 */ .content-4 {
   margin-top: 4rem;
 }
 
@@ -350,7 +436,6 @@ body {
   text-align: center;
 }
 
-
 .content-4 .overlay {
   position: absolute;
   top: 0;
@@ -360,7 +445,7 @@ body {
   height: 78%;
   width: 98%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: rgb(247, 132, 182);
   cursor: pointer;
 }
@@ -408,7 +493,6 @@ body {
 
 .content-5 .img-container {
   padding-bottom: 3rem;
-
 }
 
 .content-5 .carousel-item {
@@ -424,7 +508,6 @@ body {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
 
 .content-6 .container .items h3 {
   letter-spacing: 10px;
@@ -462,6 +545,7 @@ body {
 .f-content-1 .container .items .icon {
   font-size: 3rem;
 }
+
 .f-content-1 .container .items .title {
   font-size: 2.8rem;
 }
@@ -469,9 +553,10 @@ body {
 .f-content-1 .container .items .text-content {
   font-size: 0.7rem;
 }
+
 /* footer content-2 */
-.f-content-2{
-  background-color: #2C282C;
+.f-content-2 {
+  background-color: #2c282c;
   color: #fff;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -483,14 +568,14 @@ body {
   font-size: 2rem;
   max-width: 350px;
 }
-.f-content-2 .items a{
+
+.f-content-2 .items a {
   color: #fff;
   transition: all 0.4s ease-in-out;
-
 }
-.f-content-2 .items a:hover{
-  color:#e3b26d;
 
+.f-content-2 .items a:hover {
+  color: #e3b26d;
 }
 
 /* footer  end*/
